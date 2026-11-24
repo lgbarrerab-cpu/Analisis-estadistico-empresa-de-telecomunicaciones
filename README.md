@@ -42,16 +42,16 @@ Los archivos originales no se incluyen en este repositorio; deben ubicarse en un
 ### Opción B: Google Colab
 
 1. Sube el notebook a Colab (`Archivo → Abrir notebook → GitHub`, pegando la URL del repositorio) o desde `Archivo → Subir notebook`.
-2. Sube los tres archivos CSV a la carpeta `/datasets` del entorno de Colab, o móntalos desde Google Drive ajustando las rutas de carga.
+2. Sube los tres archivos CSV a una carpeta `datasets/` del entorno de Colab, o móntalos desde Google Drive ajustando las rutas de carga.
 3. Ejecuta todas las celdas en orden.
 
 ## Guía de reproducción
 
-- El notebook está diseñado para ejecutarse de principio a fin sin intervención manual, siempre que los tres CSV estén disponibles en `/datasets`.
-- Las rutas de carga usadas en el notebook son:
-  - `/datasets/plans.csv`
-  - `/datasets/users_latam.csv`
-  - `/datasets/usage.csv`
+- El notebook está diseñado para ejecutarse de principio a fin sin intervención manual, siempre que los tres CSV estén disponibles en `datasets/`.
+- Las rutas de carga usadas en el notebook son (relativas a la raíz del proyecto):
+  - `datasets/plans.csv`
+  - `datasets/users_latam.csv`
+  - `datasets/usage.csv`
 - Librerías requeridas: `pandas`, `seaborn`, `matplotlib`.
 - No se requiere ningún paso de configuración adicional (credenciales, API keys, etc.).
 
